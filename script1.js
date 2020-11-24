@@ -1,5 +1,5 @@
 /* пример while с итерацией и прерыванием цикла*/
-/*let userIsHappy = true;
+let userIsHappy = true;
 let number = 0;
 while(number < 10 || userIsHappy) {
   if(number == 5) {
@@ -10,20 +10,20 @@ while(number < 10 || userIsHappy) {
 
 
 /* пример do с итерацией и прерыванием цикла*/
-/*let userIsHappy = true;
-let number = 0;
+let userIsHappy2 = true;
+let number2 = 0;
 do {
-    if(number == 7) {
+    if(number2 == 6) {
        break;
     }
-    userIsHappy = confirm ('Are you happy that the number is ' + ++number + "?");
-  } while(number<10 || userIsHappy);
-*/
+    userIsHappy2 = confirm ('Are you happy that the number is ' + ++number2 + "?");
+  } while(number2<10 || userIsHappy2);
+
 
 /* С помощью for */
-for (let userIsHappy = true, number = 0; number < 10;) {
-    if(number == 5)  break; {
-    userIsHappy = confirm ('Are you happy that the number is ' + ++number + "?");
+for (let userIsHappy3 = true, number3 = 0; number3 < 10;) {
+    if(number3 == 7)  break; {
+    userIsHappy3 = confirm ('Are you happy that the number is ' + ++number3 + "?");
 }
 }
 

@@ -1,6 +1,5 @@
 /* Задача с угадыванием*/
 
-
 let num;
 let randomresult;
 let num1;
@@ -13,5 +12,5 @@ do {
     console.log(result);
     num1 = Number(result);
     num2 = Number(randomresult);
-    console.log(randomresult === result);
+    console.log(randomresult == result);
 } while (num1 != num2 && num1);
